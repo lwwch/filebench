@@ -1,0 +1,8 @@
+[project]
+name = "filebench"
+version = "0.0.1"
+authors = ["Myles Hathcock <mhathcock@gmail.com>"]
+
+[[bin]]
+path = "./benchmark.rs"
+name = "filebench"
