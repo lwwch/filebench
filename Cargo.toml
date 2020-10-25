@@ -1,8 +1,8 @@
 [project]
 name = "filebench"
 version = "0.0.1"
-authors = ["Myles Hathcock <mhathcock@gmail.com>"]
+authors = ["Myles Hathcock <44yles@gmail.com>"]
+publish = false
 
-[[bin]]
-path = "./benchmark.rs"
-name = "filebench"
+[dependencies]
+libc = "*"
